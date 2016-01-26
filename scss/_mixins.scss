@@ -32,3 +32,10 @@
 	-webkit-animation: slide-in $duration $delay cubic-bezier(0.000, -0.530, 0.000, 1.400) forwards;
 	        animation: slide-in $duration $delay cubic-bezier(0.000, -0.530, 0.000, 1.400) forwards;
 }
+
+@mixin multi-line($padding){
+	padding: $padding 0;
+	-moz-box-shadow: $padding 0 0 $white, -$padding 0 0 $white;
+	box-decoration-break: clone;
+	box-shadow: $padding 0 0 $white, -$padding 0 0 $white;
+}

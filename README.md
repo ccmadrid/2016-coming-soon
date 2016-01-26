@@ -1,9 +1,10 @@
-# Algonquin Design Grads 2016<br>Coming Soon
+# Intro to SCSS
 
-The coming soon splash page for the 2016 Algonquin Design Grad website.
+Since we are beginning to make larger websites, it makes sense to break up our projects into parts and extend functionality and reusability with SASS!
 
-<http://2016.grads.algonquindesign.ca>
+## Links
 
----
+- [Get Started with SASS](http://sass-lang.com/guide)
+- [SASS Extended Documentation](http://sass-lang.com/documentation/file.SASS_REFERENCE.html)
+- [How to Structure a SASS Project](http://thesassway.com/beginner/how-to-structure-a-sass-project)
 
-© 2016 Algonquin College Graphic Design Grad Website Team Members

@@ -10,10 +10,10 @@ html{
 	font-family: $futura;
 	background-color: $secondary;
 	transition: all 250ms ease-in-out;
-		background-image: url("img/background.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
+	background-image: url("img/dots.png"), url("img/background.jpg");
+	background-repeat: repeat, no-repeat;
+	background-size: 2em 2em, cover;
+	background-position: top, center;
 }
 
 body{
@@ -40,7 +40,7 @@ header{
 			padding: 0.25em;
 			color: $white;
 			font-weight: lighter;
-			@include slide-in(1250ms, 0ms);
+			@include slide-in(250ms, 0ms);
 
 	}
 }
@@ -70,7 +70,7 @@ footer{
 		display: inline;
 		background-color: $white;
 		margin: 0;
-		padding: 0.25em;
+		@include multi-line($text-line-pad);
 	}
 
 	.title{
@@ -89,7 +89,7 @@ footer{
 
 	p{
 		line-height: 2.5em;
-		padding: 0.25em;
+
 	}
 
 	.date{
@@ -105,7 +105,6 @@ footer{
 	}
 }
 
-
 @-webkit-keyframes slide-in{
 	0%{
 		opacity: 0;
@@ -117,7 +116,6 @@ footer{
 		        transform: translateY(0em);
 	}
 }
-
 
 @keyframes slide-in{
 	0%{
