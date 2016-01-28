@@ -13,7 +13,6 @@
 	@include mixin-name($argument1, $argument2)
 */
 
-
 @mixin button($background, $font, $hover){
 	background-color: $background;
 	color: $font;

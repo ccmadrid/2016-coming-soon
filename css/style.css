@@ -1253,7 +1253,7 @@ html {
   font-family: Futura, Arial, sans-serif;
   background-color: #aaa;
   transition: all 250ms ease-in-out;
-  background-image: url("img/dots.png"), url("img/background.jpg");
+  background-image: url("http://grads.images.algonquindesign.ca/2016/img/dots.png"), url("http://grads.images.algonquindesign.ca/2016/img/background.jpg");
   background-repeat: repeat, no-repeat;
   background-size: 2em 2em, cover;
   background-position: top, center;
@@ -1375,3 +1375,5 @@ footer a {
     transform: translateY(0em);
   }
 }
+
+/*# sourceMappingURL=style.css.map */
