@@ -1250,7 +1250,7 @@ sub {
 
 html {
   height: 100%;
-  font-family: Futura, Arial, sans-serif;
+  font-family: "effra", sans-serif;
   background-color: #aaa;
   transition: all 250ms ease-in-out;
   background-image: url("http://grads.images.algonquindesign.ca/2016/img/dots.png"), url("http://grads.images.algonquindesign.ca/2016/img/background.jpg");
