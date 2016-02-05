@@ -1277,6 +1277,7 @@ header {
 }
 
 header p {
+  width: 100%;
   display: inline;
   background-color: #000;
   padding: 0.25em;
@@ -1296,7 +1297,7 @@ footer a {
   text-decoration: none;
 }
 
-.main {
+.main, .events, .social-media {
   width: 80%;
   max-width: 45em;
   margin: 2em auto;
@@ -1306,7 +1307,7 @@ footer a {
   animation: slide-in 1250ms 0ms cubic-bezier(0, -0.53, 0, 1.4) forwards;
 }
 
-.main h1, .main p {
+.main h1, .main h2, .main p, .events h1, .events h2, .events p, .social-media h1, .social-media h2, .social-media p {
   display: inline;
   background-color: #fff;
   margin: 0;
@@ -1317,26 +1318,26 @@ footer a {
   box-shadow: 0.5em 0 0 #fff, -0.5em 0 0 #fff;
 }
 
-.main .title {
+.main .title, .events .title, .social-media .title {
   opacity: 0;
   -webkit-animation: slide-in 750ms 500ms cubic-bezier(0, -0.53, 0, 1.4) forwards;
   animation: slide-in 750ms 500ms cubic-bezier(0, -0.53, 0, 1.4) forwards;
 }
 
-.main .smaller {
+.main .smaller, .events .smaller, .social-media .smaller {
   font-size: 1.5rem;
   display: inline-block;
 }
 
-.main h1 {
+.main h1, .events h1, .social-media h1 {
   font-weight: normal;
 }
 
-.main p {
+.main p, .events p, .social-media p {
   line-height: 2.5em;
 }
 
-.main .date {
+.main .date, .events .date, .social-media .date {
   opacity: 0;
   font-size: 1.5em;
   font-weight: bold;
@@ -1344,10 +1345,14 @@ footer a {
   animation: slide-in 600ms 750ms cubic-bezier(0, -0.53, 0, 1.4) forwards;
 }
 
-.main .blurb {
+.main .blurb, .events .blurb, .social-media .blurb {
   opacity: 0;
   -webkit-animation: slide-in 500ms 900ms cubic-bezier(0, -0.53, 0, 1.4) forwards;
   animation: slide-in 500ms 900ms cubic-bezier(0, -0.53, 0, 1.4) forwards;
+}
+
+.break {
+  display: inline-block;
 }
 
 @-webkit-keyframes slide-in {
