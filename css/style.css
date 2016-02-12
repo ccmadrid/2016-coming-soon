@@ -1426,46 +1426,45 @@ footer a {
 .event-square {
   display: block;
   position: relative;
-  margin: 0;
   padding: 0.5em;
+  width: 25%;
+  float: left;
 }
 
 .event-square img {
-  width: 100%;
+  top: 10vw;
+  width: calc(100% + 1em);
   position: relative;
 }
 
 .event-square h3 {
-  width: calc(100% - 1.75em);
+  width: calc(400% - 1.5em);
   color: #fff;
   background-color: rgba(0, 0, 0, 0.25);
-  position: absolute;
-  bottom: 0.25em;
-  display: block;
+  position: relative;
+  top: -20vw;
+  display: inline-block;
   padding: 0.5em;
   margin: 0;
-}
-
-.events ul {
-  margin: 0;
-  padding: 0;
+  text-transform: uppercase;
+  font-weight: normal;
 }
 
 .event-square-info {
-  position: block;
-}
-
-.event-square-info p {
-  display: block;
+  width: 100%;
+  margin-left: calc(25% + 2em);
+  margin-top: 1em;
 }
 
 .event-square-info .event-date {
+  display: block;
   box-shadow: none;
   background: none;
   line-height: 1em;
 }
 
 .event-square-info .event-location {
+  display: block;
   box-shadow: none;
   background: none;
   padding: 0;
@@ -1473,13 +1472,68 @@ footer a {
 }
 
 .event-square-info a {
+  display: block;
   text-transform: uppercase;
   text-decoration: none;
   color: grey;
 }
 
-.icon-calendar:before {
-  margin-right: 0.25em;
+@media only screen and (min-width: 60em) {
+  .event-square {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0.5em;
+    width: calc(100% - 1em);
+    float: none;
+  }
+  .event-square img {
+    width: 100%;
+    position: relative;
+  }
+  .event-square h3 {
+    top: auto;
+    width: calc(100% - 1.75em);
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.25);
+    position: absolute;
+    bottom: 0.5em;
+    display: block;
+    padding: 0.5em;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: normal;
+  }
+  .events ul {
+    margin: 0;
+    padding: 0;
+  }
+  .event-square-info {
+    position: block;
+    margin: 0.5em 0 1em;
+  }
+  .event-square-info p {
+    display: block;
+  }
+  .event-square-info .event-date {
+    box-shadow: none;
+    background: none;
+    line-height: 1em;
+  }
+  .event-square-info .event-location {
+    box-shadow: none;
+    background: none;
+    padding: 0;
+    line-height: 1em;
+  }
+  .event-square-info a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: grey;
+  }
+  .icon-calendar:before {
+    margin-right: 0.25em;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
