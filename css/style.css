@@ -1262,6 +1262,8 @@ html {
 body {
   display: block;
   margin: 0;
+  overflow: hidden;
+  height: 100%;
 }
 
 header {
@@ -1432,7 +1434,6 @@ footer a {
 }
 
 .event-square img {
-  top: 10vw;
   width: calc(100% + 1em);
   position: relative;
 }

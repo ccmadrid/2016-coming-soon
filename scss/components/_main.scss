@@ -19,6 +19,8 @@ html{
 body{
 	display: block;
 	margin: 0;
+	overflow: hidden;
+	height: 100%;
 }
 
 header{
@@ -179,7 +181,6 @@ footer{
 		width: 25%;
 		float: left;
 		img{
-			top: 10vw;
 			width: calc(100% + 1em);;
 			position: relative;
 		}
