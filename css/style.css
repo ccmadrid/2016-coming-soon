@@ -1537,4 +1537,17 @@ footer a {
   }
 }
 
+.silent-auction {
+  text-align: center;
+  overflow: hidden;
+  height: auto;
+}
+
+.silent-auction a {
+  padding: 2em;
+  color: #000;
+  text-decoration: none;
+  background-color: white;
+}
+
 /*# sourceMappingURL=style.css.map */
